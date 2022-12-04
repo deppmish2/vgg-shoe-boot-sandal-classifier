@@ -11,9 +11,6 @@
 # Egg info
 *.egg-info
 
-# Data directory
-/data/
-
 # Coverage
 .coverage
 cov.xml
