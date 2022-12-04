@@ -1,0 +1,34 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+jupyterlab = "4.0.0a30"
+src = {editable = true, path = "."}
+streamlit = "1.14.0rc1"
+fastapi = "0.85.1"
+uvicorn = "0.19.0"
+honcho = "1.1.0"
+numpy = "1.19.0"
+tensorflow = "2.2.1"
+Pillow = "7.2.0"
+python-multipart = "0.0.5"
+
+
+[dev-packages]
+black = "22.6.0"
+flake8 = "*"
+isort = "4.3.21"
+mypy = "*"
+pre-commit = "*"
+pylint = "2.14.4"
+pytest = "7.1.2"
+httpx = "0.23.0"
+pytest-asyncio = "0.18.3"
+
+[requires]
+python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true
