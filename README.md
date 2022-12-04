@@ -2,7 +2,12 @@
 
 ## Setup
 
+Install pipenv according to your env : 
+    https://pypi.org/project/pipenv/
+    
+
 To install all dependencies:
+
 
 ```
 pipenv install
